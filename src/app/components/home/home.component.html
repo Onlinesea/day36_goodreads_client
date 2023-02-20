@@ -1,0 +1,8 @@
+<p>home works!</p>
+
+<mat-nav-list>
+        <mat-list-item *ngFor="let b of bookList" 
+        (click)="getBookDetail(b.bookId)">
+            {{b.title}}
+        </mat-list-item>
+</mat-nav-list>
